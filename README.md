@@ -8,6 +8,8 @@ Given a single positive integer `a` as input, generate a series of **odd numbers
 - If `a` is **odd**, output the **first `a` odd numbers**
 - If `a` is **even**, output the **first (`a - 1`) odd numbers**
 
+# Language used
+Python 3
 
 ## Input
 
