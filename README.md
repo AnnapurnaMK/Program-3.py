@@ -1,1 +1,40 @@
 # Program-3.py
+Problem 3: Generate Conditional Odd Number Series
+
+## Problem Statement
+
+Given a single positive integer `a` as input, generate a series of **odd numbers** based on the following rules:
+
+- If `a` is **odd**, output the **first `a` odd numbers**
+- If `a` is **even**, output the **first (`a - 1`) odd numbers**
+
+
+## Input
+
+- A single positive integer `a` (`a > 0`)
+
+## Output
+
+- A comma-separated list of odd numbers based on the value of `a`
+
+## Examples
+
+| Input `a` | Output                   |
+|-----------|--------------------------|
+| 1         | 1                        |
+| 2         | 1                        |
+| 3         | 1, 3, 5                  |
+| 4         | 1, 3, 5                  |
+| 5         | 1, 3, 5, 7, 9            |
+| 6         | 1, 3, 5, 7, 9            |
+
+
+## Features
+
+- Handles both **even** and **odd** inputs appropriately
+- **Optimized** and **clean** logic using list comprehension
+- Full **input validation** (no crashes on invalid or negative input)
+- User-friendly error messages
+- Output in clean, comma-separated format
+- Written in **pure Python**, no external libraries needed
+- Easy to adapt for scripting or integration
